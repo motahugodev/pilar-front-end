@@ -26,9 +26,9 @@ import { ref } from 'vue'
 const period = ref(0)
 
 const periods = [
-  { label: 'Streaming', type: 'day' },
+  { label: 'Streaming', type: 'streaming' },
   { label: 'Na TV', type: 'tv' },
-  { label: 'Para Alugar', type: 'week' },
+  { label: 'Para Alugar', type: 'rent' },
   { label: 'Nos Cinemas', type: 'movie' }
 ]
 

@@ -10,7 +10,7 @@ import VueLazyload from 'vue-lazyload'
 const app = createApp(App)
 
 import loadImage from '@/assets/images/loading.gif'
-import errorImage from '@/assets/images/not-found.jpg'
+import errorImage from '@/assets/images/no-image.png'
 
 app.use(VueLazyload, {
   preLoad: 1.3,

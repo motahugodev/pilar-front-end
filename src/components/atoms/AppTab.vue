@@ -31,8 +31,6 @@ defineProps({
   }
 })
 
-const onSelect = (index) => {
-  emit('update:modelValue', index)
-}
+const onSelect = (index) => emit('update:modelValue', index)
 </script>
 <style scoped></style>
